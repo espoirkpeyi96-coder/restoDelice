@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Delice</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Resto Delice</a>
+
+        <nav>
+            <button class="btn-menu" id="btn-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu-options">
+                <li><a href="#acceuil">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservation">Reservation </a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-mobile" id="menuMobile">
+                <a href="#acceuil" onclick="closeMobile()">Accueil</a>
+                <a href="#menu" onclick="closeMobile()">Menu</a>
+                <a href="#gallery" onclick="closeMobile()">Gallery</a>
+                <a href="#reservation" onclick="closeMobile()">Reservation</a>
+                <a href="#contact" onclick="closeMobile()">Contact</a>
+                <button class="resever"><a href="#reservation">Reserver</a></button>
+            </div>
+        </nav>
+        <button class="resever"><a href="#reservation">Reserver</a></button>
+    </header>
+    <section class="hero" id="acceuil">
+        <div class="hero-tag">
+            <span></span>
+            <p>CUISINE RAFFINÉE DEPUIS 1998</p>
+            <span></span>
+        </div>
+        <div class="content">
+            <h1>Une expérience culinaire inoubliable et unique</h1>
+
+            <p>Ou chaque assiette raconte une histoire. Découvrez une expérience culinaire inoubliable <br> avec nos
+                plats exquis et notre ambiance chaleureuse.</p>
+            <div class="bt">
+                <button class="res"><a href="#reservation">Reserver</a></button>
+                <button class="menu"><a href="#menu">Voir le menu</a></button>
+            </div>
+        </div>
+
+    </section>
+    <section class="preference">
+        <div class="title">
+            <span></span>
+            <p>Ce que nous offrons</p>
+            <span></span>
+        </div>
+        <div class="P-title">
+            <h2>Nos specialités</h2>
+            <p>
+                Trois piliers emblématiques de notre cuisine, chacun préparé avec une attention sans compromis accordée
+                au savoir-faire et à la saveur.
+            </p>
+        </div>
+
+        <div class="preference-content">
+            <div class="preference  card">
+                <div class="preference-img">
+                    <img src="img1.png" alt="viande d'exception">
+                </div>
+                <h3>Viande d'Exeption</h3>
+                <p>Bœuf wagyu maturé à sec et bœuf de race traditionnelle, sublimés par une truffe de saison et un jus
+                    velouté
+                    .</p>
+            </div>
+            <div class="preference card">
+                <div class="preference-img">
+                    <img src="img2.png" alt="plat 2">
+                </div>
+                <h3>Produits de la Mer</h3>
+                <p>
+                    Fruits de mer et crustacés pêchés à la ligne, rehaussés d'agrumes et d'herbes délicates.
+                </p>
+            </div>
+            <div class="preference card">
+                <div class="preference-img">
+                    <img src="img3.png" alt="plat 3">
+                </div>
+                <h3>Notes Sucrées</h3>
+                <p>
+                    Desserts artisanaux parés de feuilles d'or — la conclusion parfaite pour votre soirée.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="title">
+            <span></span>
+            <p>À propos de nous</p>
+            <span></span>
+        </div>
+
+        <div class="about">
+            <div class="about-img">
+                <img src="restaurant-interior.jpg" alt="Interior of the restaurant">
+            </div>
+            <div class="about-content">
+                <h2>La Passion de la Gastronomie Raffinée</h2>
+                <p>
+                    Nous créons des expériences culinaires uniques en associant des ingrédients d’exception, un
+                    savoir-faire artisanal et une attention minutieuse aux détails. Chaque assiette est pensée pour
+                    éveiller les sens et célébrer l’art de la gastronomie.
+                </p>
+                <p>
+                    Chaque plat est le fruit d’une collaboration entre nos chefs, les producteurs locaux et les artisans
+                    de la région — un hommage aux saisons et à l’art de cuisiner avec passion et intention.
+                </p>
+                <hr>
+                <div class="about-features">
+                    <div class="feature">
+                        <h3> + 15 ans</h3>
+                        <p>D'expérience </p>
+                    </div>
+                    <div class="feature">
+                        <h3> + 45500</h3>
+                        <p>Clientes satisfaits</p>
+                    </div>
+                    <div class="feature">
+                        <h3> + 1000</h3>
+                        <p>Plats innovants</p>
+                    </div>
+                </div>
+                <button class="res"><a href="#">Explorez le menu</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="title">
+            <span></span>
+            <p>La Sélection du Chef</p>
+            <span></span>
+
+        </div>
+        <div class="P-title">
+            <h2>Découvrez notre sélection</h2>
+            <!-- <p>Decouvrez nos plats préférés, sélectionnés par notre chef avec passion.</p> -->
+        </div>
+        <div class="menu-content">
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="plat1.jpg" alt="Menu item 1">
+                </div>
+                <h3>Penne Arrabiata au Poulet</h3>
+
+                <p>
+                    Des pâtes al dente enrobées d'une sauce tomate épicée, agrémentées de morceaux de poulet juteux et
+                    saupoudrées de parmesan
+                </p>
+                <span>$22</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="plat2.jpg" alt="Menu item 2">
+                </div>
+                <h3>Risotto aux Champignons Sauvages</h3>
+
+                <p>
+                    Un risotto crémeux préparé avec des champignons sauvages, du parmesan et une touche de truffe pour
+                    une saveur riche et terreuse.
+                </p>
+                <span>$28</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="plat3.jpg" alt="Menu item 3">
+                </div>
+                <h3>Filet de Saumon Grillé</h3>
+
+                <p>
+                    Un filet de saumon frais grillé à la perfection, servi avec une sauce au citron et des légumes
+                    croquants.
+                </p>
+                <span>$30</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="plat4.jpg" alt="Menu item 4">
+                </div>
+                <h3>Tarte au Chocolat</h3>
+
+                <p>
+                    Une tarte au chocolat fondante, servie avec une boule de glace vanille et une décoration de fruits.
+                </p>
+                <span>$12</span>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="title">
+            <span></span>
+            <p>Gallerie</p>
+            <span></span>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="gallery1.jpg" alt="Gallery item 1">
+            </div>
+            <div class="gallery-item tall ">
+                <img src="gallery2.png" alt="Gallery item 2">
+            </div>
+            <div class="gallery-item" id="ga">
+                <img src="ga3.jpg" alt="Gallery item 3">
+            </div>
+            <div class="gallery-item">
+                <img src="ga2.jpg" alt="Gallery item 4">
+            </div>
+            <div class="gallery-item">
+                <img src="ga4.png" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="ga5.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <section class="avis">
+        <div class="title">
+            <span></span>
+            <p>Ce que nos client disent</p>
+            <span></span>
+        </div>
+        <div class="P-title">
+            <h2>Le témoignage de nos convives</h2>
+        </div>
+        <div class="content-avis">
+            <div class="avis-card">
+                <span>"</span>
+                <p class="stars">★★★★★</p>
+                <p>
+                    Un dîner inoubliable. Les produits sont d'une qualité remarquable et la présentation est magnifique.
+                </p>
+                <hr>
+                <h4>Claire D</h4>
+            </div>
+            <div class="avis-card">
+                <span>"</span>
+                <p class="stars">★★★★★</p>
+                <p>
+                    Les saveurs, l'ambiance et l'attention aux détails dépassent tout ce que j'ai connu. Une adresse
+                    incontournable.
+                </p>
+                <hr>
+                <h4>Thomas Z</h4>
+            </div>
+            <div class="avis-card">
+                <span>"</span>
+                <p class="stars">★★★★★</p>
+                <p>
+                    Une expérience exceptionnelle du début à la fin. Chaque plat était une œuvre d'art, et le service
+                    était irréprochable.
+                </p>
+                <hr>
+                <h4>Sophie M</h4>
+            </div>
+        </div>
+    </section>
+    <section class="reservation" id="reservation">
+        <div class="title">
+            <span></span>
+            <p>Reservation</p>
+            <span></span>
+        </div>
+        <div class="P-title">
+            <h2>Réservez votre table</h2>
+            <p>
+                Nous nous réjouissons de vous recevoir. Laissez-nous un message et notre équipe confirmera votre
+                réservation dans les plus brefs délais.
+            </p>
+        </div>
+
+        <div class="content-res">
+            <form action="#" method="POST" class="reservation-form">
+
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="client-name">Nom complet</label>
+                        <input type="text" id="client-name" name="name" placeholder="Ex: Jean Dupont" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="client-phone">Numéro de téléphone</label>
+                        <input type="tel" id="client-phone" name="phone" placeholder="Ex: +229 01 00 00 00 00" required>
+                    </div>
+                </div>
+
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="guests-count">Nombre de personnes</label>
+                        <select id="guests-count" name="guests" required>
+                            <option value="" disabled selected>Choisir...</option>
+                            <option value="1">1 personne</option>
+                            <option value="2">2 personnes</option>
+                            <option value="3">3 personnes</option>
+                            <option value="4">4 personnes</option>
+                            <option value="5">5 personnes</option>
+                            <option value="6">6 personnes et plus</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="res-date">Date</label>
+                        <input type="date" id="res-date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="res-time">Heure</label>
+                        <input type="time" id="res-time" name="time" min="12:00" max="23:00" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="special-requests">Demandes spéciales ou allergies (Optionnel)</label>
+                    <textarea id="special-requests" name="message" rows="4"
+                        placeholder="Ex: Intolérance au gluten, table près de la fenêtre..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Demander la réservation</button>
+
+            </form>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title">
+            <span></span>
+            <p>
+                Nous contactez
+            </p>
+            <span></span>
+        </div>
+        <div class="P-title">
+            <h2>Un moment à partager autour d'une cuisine d'exception</h2>
+            <p>
+                Nous sommes à votre disposition pour toute réservation, demande d'information ou organisation
+                d'événements privés.
+            </p>
+        </div>
+        <div class="contact">
+            <div class="info">
+                <div class="item">
+                    <h4>📍Adresse</h4>
+                    <p>Parakou,Bénin</p>
+                </div>
+                <div class="item">
+                    <h4>📞Contact</h4>
+                    <p>+229 00 00 00 00 00</p>
+                </div>
+                <div class="item">
+                    <h4>📧 Email</h4>
+                    <p>restodelice@gmail.com</p>
+                </div>
+                <div class="item">
+                    <h4>Horaire d'ouverture</h4>
+                    <p>
+                        Lun-vendredi:08H-22H
+                    </p>
+                    <p>
+                        Sam-Dim:11H-17H
+                    </p>
+                </div>
+            </div>
+         
+
+
+                <!-- <h2>Notre Position</h2> -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125977.46568623732!2d2.5271930490892562!3d9.351329941590775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10320550a556d695%3A0x706d4b90bc86232d!2sParakou!5e0!3m2!1sfr!2sbj!4v1781714249301!5m2!1sfr!2sbj"
+                     style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+          
+        </div>
+    </section>
+    <footer>
+        <div class="footer-info">
+            <a href="#" class="logo">Resto Délice</a>
+            <p>
+                Une cuisine raffinée préparée avec des <br> ingrédients frais et locaux pour offrir une expérience
+                culinaire
+                inoubliable.
+            </p>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f" title="Facebook"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="liens">
+            <a href="#acceuil" onclick="closeMobile()">Accueil</a>
+            <a href="#menu" onclick="closeMobile()">Menu</a>
+            <a href="#gallery" onclick="closeMobile()">Gallery</a>
+            <a href="#reservation" onclick="closeMobile()">Reservation</a>
+        </div>
+        <div class="politique">
+            <a href="#">Politique</a>
+            <a href="#">Confidentialité</a>
+            <a href="">Mention légales</a>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
