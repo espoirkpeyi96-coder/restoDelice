@@ -178,7 +178,7 @@ ul li {
 }
 
 .hero {
-    background: url(hero.png) center/cover no-repeat rgb(0, 0, 0, 0.7);
+    background: url(image/hero.png) center/cover no-repeat rgb(0, 0, 0, 0.7);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -491,7 +491,7 @@ ul li {
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    /* padding: 2rem; */
+    padding-top: 2rem;
     /* width: 1200px; */
 }
 .gallery-item {
@@ -556,9 +556,6 @@ ul li {
     font-family: 'Montserrat', serif;
     font-size: clamp(1.3rem,3vw,1.5rem);
 
-}
-.content-res{
- 
 }
 
 .form-group-row {

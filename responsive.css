@@ -32,3 +32,6 @@
     }
    
 }
+.hero{
+    animation: zoom 4s ease;
+}
